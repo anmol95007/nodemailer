@@ -55,10 +55,10 @@ app.post(
         const info = await transporter.sendMail({
           from: `DoubleZero Forms ${email}`, // sender address
           to: "info@doublezero.ae", // list of receivers
-          subject: "Doublezero Forms", // Subject line
+          subject: "DoubleZero Forms", // Subject line
           // text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}\nPhone: ${phone}\nSubject: ${subject}`, // plain text body
           html: `
-      <p>You have a new form submission on <a href="http://doublezero.ae/">DoubleZero</a></p> site. </p>
+      <p>You have a new form submission on<a href="http://doublezero.ae/">DoubleZero</a></p>site. </p>
      
       <p>--------------------------------------------------------------------------</p>
       <p><strong>Name:</strong> ${name}</p><br/>
